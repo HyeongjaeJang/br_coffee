@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../scss/global.css" rel="stylesheet" />
+    <link href="../scss/menu.css" rel="stylesheet" />
+    <title>Coffee Shop - Menu</title>
+  </head>
+  <body>
+    <header class="navbar_container">
+      <div class="navbar">
+        <div class="navbar_sign">
+          <img
+            src="../images/banner.png"
+            alt="banner"
+            class="navbar_sign_banner"
+          />
+          <a class="mail" href="mailto:hijang02@gmail.com">Daily Coffee</a>
+        </div>
+        <nav id="navbar_items">
+          <ul class="list">
+            <li class="list_item"><a href="../index.html">Home</a></li>
+            <li class="list_item"><a href="#menu">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="image"></div>
+    <div class="menu-container">
+      <ul class="menus">
+        <li class="menus_item">
+          <button class="btn" type="btn" id="btn">
+            <img
+              src="../images/hot_Coffee.png"
+              alt="hot_Drink"
+              class="menus_item_img"
+            />
+          </button>
+          Hot Drinks
+          <ol class="info">
+            <li class="info_title">
+              <button popovertarget="des" class="info_title">
+                In-house Brew
+              </button>
+            </li>
+            <span>$2.99</span>
+            <hr />
+            <li class="info_title">
+              <button popovertarget="des2" class="info_title">Espresso</button>
+            </li>
+            <span>$$4.99</span>
+          </ol>
+        </li>
+        <li class="menus_item">
+          <img
+            src="../images/cold_Drinks.png"
+            alt="hot_Drink"
+            class="menus_item_img"
+          />Cold Drinks
+          <ol class="info">
+            <li class="info_title">
+              <button popovertarget="des3" class="info_title">Cold Brew</button>
+            </li>
+            <span>$3.99</span>
+            <hr />
+            <li class="info_title">
+              <button popovertarget="des4" class="info_title">
+                Iced Chai Latte
+              </button>
+            </li>
+            <span>$6.99</span>
+          </ol>
+        </li>
+        <li class="menus_item">
+          <img
+            src="../images/pastries.png"
+            alt="hot_Drink"
+            class="menus_item_img"
+          />Pastries
+          <ol class="info">
+            <li class="info_title">
+              <button popovertarget="des5" class="info_title">
+                Bacon Oatmeal Raisin Cookie
+              </button>
+            </li>
+            <span>$3.50</span>
+            <hr />
+            <li class="info_title">
+              <button popovertarget="des6" class="info_title">
+                Blueberry, Lemon and Thyme Muffin
+              </button>
+            </li>
+            <span>$2.50</span>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <p popover id="des" class="des">
+      Our in-house medium roast is a classic balance between sweet vanilla,
+      nutty hazelnut, and a smooth low acidity to bring everything together.
+    </p>
+    <p popover id="des2" class="des2">
+      A balance between bold and smooth, powerful and sweet, our signature
+      espresso blend is a complex flavor profile. It features strong notes of
+      semi-sweet chocolate and caramel, with mild acidity and a bright floral
+      finish.
+    </p>
+    <p popover id="des3" class="des3">
+      Our bright and delicious coffee blend, brewed over ice to give you a cold
+      coffee freshness with all the flavor of our amazing in-house coffee.
+    </p>
+    <p popover id="des4" class="des4">
+      A creamy drink with a kick, this drink features spicy chai tea blended
+      with your choice of milk and poured over ice.
+    </p>
+    <p popover id="des5" class="des5">
+      An infused bacon, sugar and egg mixture is folded into a perfect blend of
+      oats, flour, raisins and cinnamon to create a soft and chewy textured
+      cookie.
+    </p>
+    <p popover id="des6" class="des6">
+      Tart and sweet, this classic blueberry and lemon combination comes with an
+      earthy twist.
+    </p>
+  </body>
+  <script src="../script.js"></script>
+</html>

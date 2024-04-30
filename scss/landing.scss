@@ -1,0 +1,38 @@
+@use "./scss/landing" as *;
+
+.bg-text {
+  border: 2px solid white;
+  border-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -8%);
+  top: 27%;
+  width: 50%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  z-index: 2;
+}
+
+.btn-menu {
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.btn-menu a {
+  text-decoration: none;
+  color: white;
+}
